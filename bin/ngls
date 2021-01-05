@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+"use strict";
+
+const path = require("path");
+
+const binLoc = path.join(
+  __dirname,
+  "..",
+  "node_modules",
+  "@angular",
+  "language-server",
+  "index.js"
+);
+
+require(binLoc);

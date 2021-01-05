@@ -1,0 +1,14 @@
+{
+  "name": "ngls-bin",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "ngls": "./bin/ngls"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/language-server": "^0.1100.2"
+  }
+}
